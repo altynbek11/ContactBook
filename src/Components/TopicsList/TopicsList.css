@@ -1,0 +1,43 @@
+.container-cards {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgb(3, 5, 122), transparent),
+    linear-gradient(to top left, rgb(63, 15, 151), transparent),
+    linear-gradient(to top right, rgb(255, 0, 0), transparent);
+  background-blend-mode: screen;
+  padding-bottom: 30px;
+}
+
+.card1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #02244b;
+  padding: 20px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.btn1 {
+  background-color: #398bff;
+  width: 130px;
+  height: 40px;
+  color: rgb(104, 18, 18);
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+.block-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+#root {
+  background-color: #31001e !important;
+}
