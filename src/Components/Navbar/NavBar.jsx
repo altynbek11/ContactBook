@@ -7,7 +7,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import { topicsContext } from "../../context/TopicContextProvider";
-
 const NavBar = () => {
   const { searchVal, setSearchVal, getTopics } = useContext(topicsContext);
 
@@ -19,7 +18,7 @@ const NavBar = () => {
     <Navbar bg="black" expand="lg">
       <Container fluid>
         <NavLink id="not-underline" to="/">
-          <Navbar.Brand className="alt1">Altynbek Documentation</Navbar.Brand>
+          <Navbar.Brand className="alt1">Marvel</Navbar.Brand>
         </NavLink>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -32,10 +31,10 @@ const NavBar = () => {
               Home
             </NavLink>
             <NavLink className="nav-link" to="/add">
-              Add Topic
+              Add character
             </NavLink>
             <NavLink className="nav-link" to="/topicsList">
-              Topics List
+              Characters
             </NavLink>
           </Nav>
           <Form className="d-flex">

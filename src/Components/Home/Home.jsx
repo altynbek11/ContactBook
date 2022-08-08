@@ -1,5 +1,5 @@
 import React from "react";
-import mac from "../../assets/i.webp";
+import mac from "../../assets/marvel.webp";
 import "./Home.css";
 
 const Home = () => {
@@ -8,10 +8,9 @@ const Home = () => {
       <div className="container-header">
         <div className="header-text" id="header-go">
           <h1>
-            ESSENTIAL READING <br />
-            TEEN SPIDER-MAN
+            ALL THE MARVEL STUDIOS <br /> HALL H NEWS!
           </h1>
-          <button id="header-btn">Начать сейчас</button>
+          <button id="header-btn">Look</button>
           <p>
             Featuring adolescent Spidey! At age fifteen, Peter Parker of Queens
             became <br /> New York City’s web-slinging defender. Inheriting a

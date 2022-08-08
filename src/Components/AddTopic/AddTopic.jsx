@@ -66,20 +66,20 @@ const AddTopic = () => {
     <>
       <div className="containerAddTopic">
         <InputGroup className="addTopic-inputs mb-3">
-          <InputGroup.Text id="basic-addon1">Название</InputGroup.Text>
+          <InputGroup.Text id="basic-addon1">Персонаж</InputGroup.Text>
           <FormControl
             value={title}
-            placeholder="Добавьте название"
+            placeholder="Добавьте персонажа"
             aria-label="Username"
             aria-describedby="basic-addon1"
             onChange={(e) => setTitle(e.target.value)}
           />
         </InputGroup>
         <InputGroup className="addTopic-inputs mb-3">
-          <InputGroup.Text id="basic-addon1">Описание</InputGroup.Text>
+          <InputGroup.Text id="basic-addon1">Сила</InputGroup.Text>
           <FormControl
             value={description}
-            placeholder="Добавьте описание"
+            placeholder="Добавьте силу"
             aria-label="Username"
             aria-describedby="basic-addon1"
             onChange={(e) => setDescription(e.target.value)}
